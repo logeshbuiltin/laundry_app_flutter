@@ -1,3 +1,5 @@
+// ignore_for_file: unreachable_switch_default
+
 import 'package:flutter/material.dart';
 import 'package:flutter_icons_null_safety/flutter_icons_null_safety.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

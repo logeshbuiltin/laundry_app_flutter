@@ -1,7 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons_null_safety/flutter_icons_null_safety.dart';
-import 'package:laundry_app_ui/pages/adddetails_screen.dart';
 import 'package:laundry_app_ui/pages/aisearch/search_screen.dart';
 import 'package:laundry_app_ui/pages/details/details_screen.dart';
 import 'package:laundry_app_ui/pages/profile_screen.dart';
@@ -20,7 +19,7 @@ class _DashboardState extends State<Dashboard> {
   List<Map<String, dynamic>> _pages = [
     {'page': DetailsScreen()},
     {'page': SearchScreen()},  
-    {'page': AdddetailsScreen()},  
+    //{'page': AdddetailsScreen()},  
     {'page': LatestOrders()},  
     {'page': ProfileScreen()}, 
 

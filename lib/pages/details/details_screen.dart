@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_icons_null_safety/flutter_icons_null_safety.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:laundry_app_ui/models/products.dart';
-import 'package:laundry_app_ui/pages/camera_screen.dart';
 import 'package:laundry_app_ui/pages/details/components/categories.dart';
 import 'package:laundry_app_ui/pages/details/components/item_card.dart';
 import 'package:laundry_app_ui/pages/imageview/imagelist_screen.dart';
@@ -36,7 +35,7 @@ class DetailsScreen extends StatelessWidget{
             iconSize: 30,
             icon: const Icon(FlutterIcons.plus_ant, color: Colors.white,),
             onPressed: () {
-              CameraScreen();
+              //CameraScreen();
             } ,
           ),
           SizedBox(width: Constants.kDefaultPaddin / 2)
